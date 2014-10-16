@@ -2,25 +2,110 @@
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
+// AT&T Palette
+$att-orange: #ff7200;
+$att-orange-highlight: #fcb314;
+$att-blue: #067ab4;
+$att-blue-highlight: #3aa5dc;
+
+$att-lime: #b6bf00;
+$att-lime-highlight: #dbd810;
+$att-green: #6ebb1f;
+$att-green-highlight: #c4d82d;
+$att-burgundy: #b30a3c;
+$att-burgundy-highlight: #da3872;
+$att-purple: #81017e;
+$att-purple-highlight: #b8509e;
+$att-darkblue: #0c2577;
+$att-darkblue-highlight: #020bb3;
+
+$att-ochre: #eaab00;
+$att-magenta: #ff0066;
+$att-royalblue: #000066;
+$att-yellow: #ffef00;
+$att-teal: #00c7b2;
+$att-dustyblue: #96b1d0;
+$att-lightblue: #bcc9d6;
+$att-mintgreen: #99ffcc;
+$att-gold: #ff9900;
+$att-taupe: #cccc66;
+$att-warmgray: #cccc99;
+
+$att-gray: #666666;
+
 // Custom Styles
 body {
-  background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
 }
 
 .hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+  section {
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    // margin-top: 20px;
+  }
+  .orange {
+    // background: radial-gradient($att-orange-highlight, $att-orange); 
+    background: linear-gradient($att-orange-highlight, $att-orange); 
+  }
+  .blue {
+    // background: radial-gradient($att-blue-highlight, $att-blue); 
+    background: linear-gradient($att-blue-highlight, $att-blue); 
+  }
+  .lime {
+    // background: radial-gradient($att-lime-highlight, $att-lime); 
+    background: linear-gradient($att-lime-highlight, $att-lime); 
+  }
+  .green {
+    // background: radial-gradient($att-green-highlight, $att-green); 
+    background: linear-gradient($att-green-highlight, $att-green); 
+  }
+  .burgundy {
+    // background: radial-gradient($att-burgundy-highlight, $att-burgundy); 
+    background: linear-gradient($att-burgundy-highlight, $att-burgundy); 
+  }
+  .purple {
+    // background: radial-gradient($att-purple-highlight, $att-purple); 
+    background: linear-gradient($att-purple-highlight, $att-purple); 
+  }
+  .darkblue {
+    background: radial-gradient($att-darkblue-highlight, $att-darkblue); 
+  }
+  .ochre {
+    background: $att-ochre; 
+  }
+  .magenta {
+    background: $att-magenta;
+  }
+  .royalblue {
+    background: $att-royalblue; 
+  }
+  .yellow {
+    background: $att-yellow;
+  }
+  .teal {
+    background: $att-teal;
+  }
+  .dustyblue {
+    background: $att-dustyblue;
+  }
+  .lightblue {
+    background: $att-lightblue;
+  }
+  .mintgreen {
+    background: $att-mintgreen; 
+  }
+  .gold {
+    background: $att-gold; 
+  }
+  .taupe {
+    background: $att-taupe; 
+  }
+  .warmgray {
+    background: $att-warmgray; 
+  }
+  .gray {
+    background: $att-gray; 
   }
 }
