@@ -1,3 +1,7 @@
-## Yo, I'm a Readme
+Trial run of:
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
+slides.js
+
+mapbox.js
+
+raw.js
